@@ -1,5 +1,7 @@
-Vaccine Prediction Project
+# Vaccine Prediction Project
+
 Overview
+
 This project aims to predict how likely individuals are to receive the XYZ and seasonal flu vaccines. Specifically, we predict two probabilities: one for the XYZ vaccine and one for the seasonal flu vaccine. The problem is formulated as a multilabel classification task.
 
 Data Description
