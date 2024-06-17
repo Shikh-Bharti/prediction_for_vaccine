@@ -5,6 +5,7 @@ Overview
 This project aims to predict how likely individuals are to receive the XYZ and seasonal flu vaccines. Specifically, we predict two probabilities: one for the XYZ vaccine and one for the seasonal flu vaccine. The problem is formulated as a multilabel classification task.
 
 Data Description
+
 The dataset contains 36 columns. The first column, respondent_id, is a unique identifier. The remaining 35 features include binary, ordinal, and categorical variables:
 
 Binary Variables: Represented as 0 (No) or 1 (Yes).
@@ -17,6 +18,7 @@ Evaluation Metric
 The performance is evaluated using the area under the receiver operating characteristic curve (ROC AUC) for each target variable. The overall score is the mean of these two ROC AUC scores. Higher values indicate better performance.
 
 Files
+
 training_set_features.csv: The dataset containing features used for training.
 training_set_labels.csv: The dataset containing labels for training.
 test_set_features.csv: The dataset containing features for prediction.
